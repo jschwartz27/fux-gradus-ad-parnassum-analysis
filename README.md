@@ -1,0 +1,1 @@
+# fux-gradus-ad-parnassum-analysis
