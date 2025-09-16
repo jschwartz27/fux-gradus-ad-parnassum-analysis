@@ -5,6 +5,7 @@
   PageNumberTo: null
   EntryType: 0
   Guid: 8d8493f6-e293-4cfc-9e32-6b174bdcc939
+
 - Text: The first of them comes on the downbeat and must always be consonant...
   Note: null
   MyNote: null
@@ -12,6 +13,7 @@
   PageNumberTo: null
   EntryType: 0 # TODO perhaps 1?
   Guid: 746e14cc-25e3-4cbb-b421-1bf08e5fa077
+
 - Text: ...the second comes on the upbeat, and may be dissonant if it moves from the preceding note and to the following note stepwise. However, if it moves by a skip, it must be consonant. In this species a dissonance may not occur, except by diminution, i.e., by filling out the space between two notes that are a third distance from each other... it makes no difference whether the note which results from the diminution is consonant or dissonant; it is satisfactory if the space between the two notes, a third distance from each other, is filled out.
   Note: null
   MyNote: null
@@ -19,6 +21,7 @@
   PageNumberTo: null
   EntryType: 1
   Guid: 52bd6a88-cd29-42cc-9512-49105f08683e
+
 - Text: ...except that in this species the next to the last measure should have a fifth, followed by a major sixth, if the cantus firmus--or chorale medlody--is in the lower voice. If the cantus firmus is in the upper voice, there should be a fifth followed by a minor third.
   Logic: "For penultimate to final: fifth to major sixth if cf is in the lower voice else fifth to minor third."
   Note: null
@@ -27,6 +30,7 @@
   PageNumberTo: null
   EntryType: 1
   Guid: f4ed4721-58ed-4eb2-ab52-a5ffb3f72edc
+
 - Text: It should be said that the skip of a third cannot prevent a succession of either two fifths or two octaves. The intervening note on the upbeat is regarded as hardly existing, since owing to its short duration and the small distance between the tones it cannot compensate to such an extent that the ear will not notice the two succeeding fifths or octaves.
   # TODO continue text on 44
   Logic: For succeeding downbeats of direct perfect consonances, there must be a skip greater than a third.
@@ -36,6 +40,7 @@
   PageNumberTo: 44
   EntryType: 1
   Guid: 9a5ae424-6bc6-424e-9aef-4bfd76a7ead3
+
 - Text: First, one may use a half rest in place of the first note.
   Logic: null
   Note: null
@@ -44,6 +49,7 @@
   PageNumberTo: null
   EntryType: 3
   Guid: 9f08dfd2-5f5e-4f02-b429-402fddfdef04
+
 - Text: Second, if the two parts have been led so close together that one does not know where to take them; and if there is no possibility of using contrary motion, this motion can be brought about by using the skip of a minor sixth (which is permissible) or an octave...
   Logic: null
   Note: null
