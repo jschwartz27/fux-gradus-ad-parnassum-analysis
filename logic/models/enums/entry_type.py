@@ -1,10 +1,9 @@
-from enum import Enum
+from enum import IntEnum
 
 
-class EntryType(Enum):
+class EntryType(IntEnum):
     FACT = 0
     RULE = 1
     HEURISTIC = 2
     SUGGESTION = 3
-    AuthorRule = 4
-    CompositeRule = 5
+    # AUTHORS_RULE = 4

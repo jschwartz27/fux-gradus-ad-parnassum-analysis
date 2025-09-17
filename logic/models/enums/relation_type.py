@@ -1,7 +1,7 @@
-from enum import Enum
+from enum import IntEnum
 
 
-class RelationType(Enum):
+class RelationType(IntEnum):
     INTRA_VOICE_MOVEMENT = 0
     INTER_VOICE_MOVEMENT = 1
     CONFIG = 2
