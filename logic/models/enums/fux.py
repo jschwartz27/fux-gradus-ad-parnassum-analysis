@@ -1,7 +1,7 @@
-from enum import Enum
+from enum import IntEnum
 
 
-class Species(Enum):
+class Species(IntEnum):
     ONE = 1
     TWO = 2
     THREE = 3
@@ -9,7 +9,7 @@ class Species(Enum):
     FIVE = 5
 
 
-class NVoices(Enum):
+class NVoices(IntEnum):
     ONE = 1
     TWO = 2
     THREE = 3

@@ -1,9 +1,9 @@
-from enum import Enum
+from enum import IntEnum
 
 
-class LociType(Enum):
-    INITIAL_MEASURE = 0
-    DEFAULT = 1
+class LociType(IntEnum):
+    DEFAULT = 0
+    INITIAL_MEASURE = 1
     ANTEPENULTIMATE_TO_PENULTIMATE_MEASURE = 2
     PENULTIMATE_MEASURE = 3
     PENULTIMATE_TO_FINAL_MEASURE = 4

@@ -15,6 +15,7 @@ class Text:
     Text: str
     AuthorsNote: str
     Note: str
+    # Logic: Optional[str]
 
 
 @dataclass(frozen=True)

@@ -1,0 +1,9 @@
+- Guid: 697484fc-7a9f-440a-b177-0026af6c2f23
+  Text:
+    Logic: Intra-voice movement of tritone or major sixth forbidden
+    Note: null
+  Fux: # is this actually necessary?
+    LociType: 1
+    RelationType: 0
+  AbstractedGuids:
+    [7506a0f0-1dc6-4f90-a0da-3c73d054341d, b811958a-b0df-4166-a04b-bdd4e240c2e2]

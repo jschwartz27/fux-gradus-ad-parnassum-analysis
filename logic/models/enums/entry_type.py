@@ -6,4 +6,4 @@ class EntryType(IntEnum):
     RULE = 1
     HEURISTIC = 2
     SUGGESTION = 3
-    # AUTHORS_RULE = 4
+    AUTHORS_RULE = 4

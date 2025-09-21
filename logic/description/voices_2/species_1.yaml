@@ -1,109 +1,187 @@
-- Text: "It [First Species] is the simplest composition of two or more voices which, having notes of equal length, consits only of consonances."
-  Note: null
-  MyNote: null
-  PageNumberFrom: 27
-  PageNumberTo: null
+# TODO Perhaps include where entries SHOULDN'T be applicable
+# TODO for programming optimization
+
+- Text:
+    Text: "It [First Species] is the simplest composition of two or more voices which, having notes of equal length, consits only of consonances."
+    Note: null
+    MyNote: null
+  Pages:
+    PageNumberFrom: 27
+    PageNumberTo: null
   EntryType: 0
+  Fux:
+    RelationType: 2
+  Guid: b91bb45d-3e7f-40ac-9b44-ddae3a4cacb2
 
-- Text: Contrary and oblique motion should be employed as often as possible, since by their use we can more easily avoid mistakes.
-  Note: null
-  MyNote: null
-  PageNumberFrom: 27
-  PageNumberTo: null
+- Text:
+    Text: Contrary and oblique motion should be employed as often as possible, since by their use we can more easily avoid mistakes.
+    Note: null
+    MyNote: null
+  Pages:
+    PageNumberFrom: 27
+    PageNumberTo: null
   EntryType: 2
+  Fux:
+    RelationType: 1
+    LociType: 0
+  Guid: 46851117-3f74-4b16-9b05-c3353421e8e9
 
-- Text: ... more imprefect than perfect consonances should be employed.
-  Note: null
-  MyNote: TODO perhaps should be rule?
-  PageNumberFrom: 28
-  PageNumberTo: null
+- Text:
+    Text: ... more imprefect than perfect consonances should be employed.
+    Note: null
+    MyNote: TODO perhaps should be rule?
+  Pages:
+    PageNumberFrom: 28
+    PageNumberTo: null
+  # RelationType: CONFIG_OVER_TIME
   EntryType: 2
+  Fux:
+    LociType: 0
+  Guid: a3fa94d8-124b-4806-847d-a3ff11eb433d
 
-- Text: Excepted are the beginning and the end which both must consist of perfect consonances.
-  Note: null
-  MyNote: null
-  PageNumberFrom: 28
-  PageNumberTo: null
+# TODO Should this be composite with that about Mode so first and last are really just perfect in mode and unison for last?
+- Text:
+    Text: Excepted are the beginning and the end which both must consist of perfect consonances.
+    Note: null
+    MyNote: null
+  Pages:
+    PageNumberFrom: 28
+    PageNumberTo: null
   EntryType: 1
+  Fux:
+    RelationType: 2
+  Guid: d40ce49d-39fd-448c-a1e2-acf6eb0b7cbe
 
-- Text: Finally, it should be noticed that in the next to the last bar there must be a major sixth if the cantus firmus is in the lower part; and a minor third, if it is in the upper part.
-  Note: null
-  MyNote: TODO here stated implicitly that last note interval is ALWAYS unison/octave
-  FootNote: Thus, the seventh degree has to be raised in the Dorian (D), Mixolydian (G), and Aeolian (A) modes.
-  PageNumberFrom: 28
-  PageNumberTo: null
+- Text:
+    Text: Finally, it should be noticed that in the next to the last bar there must be a major sixth if the cantus firmus is in the lower part; and a minor third, if it is in the upper part.
+    Note: null
+    MyNote: TODO here stated implicitly that last note interval is ALWAYS unison/octave
+    AuthorsNote: Thus, the seventh degree has to be raised in the Dorian (D), Mixolydian (G), and Aeolian (A) modes.
+  Pages:
+    PageNumberFrom: 28
+    PageNumberTo: null
   EntryType: 1
+  Fux:
+    RelationType: 2
+    LociType: 3
+  Guid: 81578bd8-0d39-4643-98ff-0d1d357517c3
 
-- Text: The repition of a tone--the only way of using oblique motion in the first species--may occur occassionally in the counterpoint; however, the same tone should not be repeated more than once.
-  Note: null
-  MyNote: Fux himself then violates this in Fig. 15
-  FootNote: null
-  PageNumberFrom: 29
-  PageNumberTo: null
+- Text:
+    Text: The repition of a tone--the only way of using oblique motion in the first species--may occur occassionally in the counterpoint; however, the same tone should not be repeated more than once.
+    Note: null
+    MyNote: Fux himself then violates this in Fig. 15
+    AuthorsNote: null
+  Pages:
+    PageNumberFrom: 29
+    PageNumberTo: null
+  # RelationType: CONFIG_OVER_TIME
   EntryType: 4
+  Fux:
+    LociType: 0
+  Guid: 3b2e09b4-5b13-40d1-8727-0a2789e48196
 
-# TODO where established that final must be unison
-- Text: Since, in this example, the cantus firmus is in D as the beginning and conclusion show, and you started with G, you have obviously forced the beginning out of the mode. Because of this I have corrected the fifth to an octave, which establishes the mode as the cantus firmus.
-  Logic: The first and last note of the counterpoint must be unison or fifth in the mode.
-  Note: null
-  MyNote: null
-  FootNote: null
-  PageNumberFrom: 31
-  PageNumberTo: null
+# TODO where is it established that final must be unison
+# TODO compisite as mentioned before in TODO
+- Text:
+    Text: Since, in this example, the cantus firmus is in D as the beginning and conclusion show, and you started with G, you have obviously forced the beginning out of the mode. Because of this I have corrected the fifth to an octave, which establishes the mode as the cantus firmus.
+    Logic: The first and last note of the counterpoint must be unison or fifth in the mode.
+    Note: null
+    MyNote: null
+    AuthorsNote: null
+  Pages:
+    PageNumberFrom: 31
+    PageNumberTo: null
   EntryType: 0
+  Fux:
+    RelationType: 2
+  Guid: 07b354c1-b31d-4602-9c9c-47dd7cdddbdb
 
-- Text: This mi against fa you have written in the progression from the sixth to the seventh bar by a skip of an augmented fourth or tritone which is hard to sing and sounds bad, for which reasons it is forbidden in strict counterpoint.
-  Logic: Intra-voice movement of a tritone is not allowed.
-  Note: null
-  MyNote: null
-  FootNote: null
-  PageNumberFrom: 35
-  PageNumberTo: null
+- Text:
+    Text: This mi against fa you have written in the progression from the sixth to the seventh bar by a skip of an augmented fourth or tritone which is hard to sing and sounds bad, for which reasons it is forbidden in strict counterpoint.
+    Logic: Intra-voice movement of a tritone is not allowed.
+    Note: null
+    MyNote: null
+    AuthorsNote: null
+  Pages:
+    PageNumberFrom: 35
+    PageNumberTo: null
   EntryType: 1
+  Fux:
+    RelationType: 0
+    LociType: 0
   Guid: 7506a0f0-1dc6-4f90-a0da-3c73d054341d
 
-- Text: TEXT
-  Logic: Allow voice crossing.
-  Note: null
-  MyNote: null
-  FootNote: null
-  PageNumberFrom: 36
-  PageNumberTo: null
+- Text:
+    Text: TEXT
+    Logic: Allow voice crossing.
+    Note: null
+    MyNote: null
+    AuthorsNote: null
+  Pages:
+    PageNumberFrom: 36
+    PageNumberTo: null
   EntryType: 1
+  Fux:
+    RelationType: 2
+    LociType: 0 # excluding first and last and penultimate?
+  Guid: 28c45267-a51d-4daf-a8ef-25a0ac052a6a
 
-- Text: null
-  Logic: Intra-voice skip of major sixth forbidden
-  Note: null
-  MyNote: null
-  FootNote: null
-  PageNumberFrom: 37
-  PageNumberTo: null
+- Text:
+    Text: null
+    Logic: Intra-voice skip of major sixth forbidden
+    Note: null
+    MyNote: null
+    AuthorsNote: null
+  Pages:
+    PageNumberFrom: 37
+    PageNumberTo: null
   EntryType: 1
+  Fux:
+    RelationType: 0
+    LociType: 0
   Guid: b811958a-b0df-4166-a04b-bdd4e240c2e2
 
-- Text: battuta
-  Logic: null
-  Note: null
-  MyNote: null
-  FootNote: null
-  PageNumberFrom: 37
-  PageNumberTo: 38
+- Text:
+    Text: battuta
+    Logic: null
+    Note: null
+    MyNote: null
+    AuthorsNote: null
+  Pages:
+    PageNumberFrom: 37
+    PageNumberTo: 38
   EntryType: 3
+  Fux:
+    RelationType: 1
+    LociType: 0
+  Guid: 9af7aa08-feb9-44c2-bf0a-eb06d0a015d0
 
-- Text: TEXT
-  Logic: No skip from consonance to octave or unison. Even in more than two voices.
-  Note: null
-  MyNote: null
-  FootNote: null
-  PageNumberFrom: 38
-  PageNumberTo: null
+- Text:
+    Text: TEXT
+    Logic: No skip from consonance to octave or unison. Even in more than two voices.
+    Note: null
+    MyNote: null
+    AuthorsNote: null
+  Pages:
+    PageNumberFrom: 38
+    PageNumberTo: null
   EntryType: 3
+  Fux:
+    RelationType: 1
+    LociType: 0 # won't be possible from penultimate_to_final
+  Guid: 273ecd85-f6a4-42cc-9b59-50df57d5c369
 
-- Text: TEXT
-  Logic: Skip from unison to consonant is bad, except at initial in the example, due to cantus firmus.
-  Note: null
-  MyNote: null
-  FootNote: null
-  PageNumberFrom: 39
-  PageNumberTo: null
+- Text:
+    Text: TEXT
+    Logic: Skip from unison to consonant is bad, except at initial in the example, due to cantus firmus.
+    Note: null
+    MyNote: null
+    AuthorsNote: null
+  Pages:
+    PageNumberFrom: 39
+    PageNumberTo: null
   EntryType: 2
+  Fux:
+    RelationType: 1
+    LociType: 0 # shouldn't be possible pen_to_final
+  Guid: 41e4c14f-3393-44f3-9953-75031e43822b
