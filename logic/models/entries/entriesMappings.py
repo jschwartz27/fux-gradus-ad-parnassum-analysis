@@ -2,6 +2,7 @@ from typing import Any
 from uuid import UUID
 from logic.models.entries.compositeRule import CompositeRule, CompositeText
 from logic.models.entries.entries import (
+    AuthorsRule,
     Entry,
     Fact,
     FuxDetails,
@@ -115,7 +116,7 @@ class EntryRawToDataclass:
                     RelationType=RelationType(raw_entry["RelationType"]),
                 )
             case EntryType.AUTHORS_RULE:
-                return Rule(
+                return AuthorsRule(
                     Guid=raw_entry["Guid"],
                     FuxDetails=FuxDetails(
                         NVoice=NVoices(raw_entry["NVocies"]),

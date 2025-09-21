@@ -57,3 +57,8 @@ class Heuristic(Entry):
 @dataclass(frozen=True)
 class Suggestion(Entry):
     RelationType: Optional[RelationType]
+
+
+@dataclass(frozen=True)
+class AuthorsRule(Entry):
+    RelationType: RelationType
