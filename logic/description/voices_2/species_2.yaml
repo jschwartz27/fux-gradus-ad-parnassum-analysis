@@ -39,7 +39,6 @@
 
 - Text:
     Text: ...except that in this species the next to the last measure should have a fifth, followed by a major sixth, if the cantus firmus--or chorale medlody--is in the lower voice. If the cantus firmus is in the upper voice, there should be a fifth followed by a minor third.
-    Logic: "For penultimate to final: fifth to major sixth if cf is in the lower voice else fifth to minor third."
     AuthorsNote: null
     Note: null
   Pages:
@@ -49,6 +48,7 @@
   Fux:
     RelationType: 2
     LociType: 4
+  Logic: "For penultimate to final: fifth -> major sixth IF cf is in the lower voice ELSE fifth -> minor third."
   Guid: f4ed4721-58ed-4eb2-ab52-a5ffb3f72edc
 
 - Text:
