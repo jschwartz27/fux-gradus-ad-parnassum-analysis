@@ -36,7 +36,6 @@ class Entry:
     FuxDetails: FuxDetails
     Text: Text
     PageNumbers: PageNumbers
-    LociType: LociType
 
 
 @dataclass(frozen=True)
@@ -47,18 +46,22 @@ class Fact(Entry):
 @dataclass(frozen=True)
 class Rule(Entry):
     RelationType: RelationType
+    LociType: LociType
 
 
 @dataclass(frozen=True)
 class Heuristic(Entry):
     RelationType: Optional[RelationType]
+    LociType: LociType
 
 
 @dataclass(frozen=True)
 class Suggestion(Entry):
     RelationType: Optional[RelationType]
+    LociType: LociType
 
 
 @dataclass(frozen=True)
 class AuthorsRule(Entry):
     RelationType: RelationType
+    LociType: LociType

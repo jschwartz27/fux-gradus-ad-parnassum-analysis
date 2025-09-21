@@ -6,6 +6,9 @@
     PageNumberFrom: 41
     PageNumberTo: null
   EntryType: 0
+  Fux:
+    RelationType: 2
+    # LociType: null
   Guid: 8d8493f6-e293-4cfc-9e32-6b174bdcc939
 
 - Text:
@@ -15,17 +18,23 @@
   Pages:
     PageNumberFrom: 41
     PageNumberTo: null
-  EntryType: 0 # TODO perhaps 1?
+  EntryType: 1 # Any chance it's 0?
+  Fux:
+    RelationType: 2
+    LociType: 1
   Guid: 746e14cc-25e3-4cbb-b421-1bf08e5fa077
 
 - Text:
     Text: ...the second comes on the upbeat, and may be dissonant if it moves from the preceding note and to the following note stepwise. However, if it moves by a skip, it must be consonant. In this species a dissonance may not occur, except by diminution, i.e., by filling out the space between two notes that are a third distance from each other... it makes no difference whether the note which results from the diminution is consonant or dissonant; it is satisfactory if the space between the two notes, a third distance from each other, is filled out.
     Note: null
-    MyNote: null
+    MyNote: "In theory is actually RelationType: 1, but programmatically is 2."
   Pages:
     PageNumberFrom: 41
     PageNumberTo: null
   EntryType: 1
+  Fux:
+    RelationType: 2
+    LociType: 0
   Guid: 52bd6a88-cd29-42cc-9512-49105f08683e
 
 - Text:
@@ -37,6 +46,9 @@
     PageNumberFrom: 42
     PageNumberTo: null
   EntryType: 1
+  Fux:
+    RelationType: 2
+    LociType: 4
   Guid: f4ed4721-58ed-4eb2-ab52-a5ffb3f72edc
 
 - Text:
@@ -49,6 +61,9 @@
     PageNumberFrom: 43
     PageNumberTo: 44
   EntryType: 1
+  Fux:
+    RelationType: 1
+    LociType: 0
   Guid: 9a5ae424-6bc6-424e-9aef-4bfd76a7ead3
 
 - Text:
@@ -60,6 +75,9 @@
     PageNumberFrom: 45
     PageNumberTo: null
   EntryType: 3
+  Fux:
+    RelationType: 0
+    LociType: 1
   Guid: 9f08dfd2-5f5e-4f02-b429-402fddfdef04
 
 - Text:
@@ -71,5 +89,8 @@
     PageNumberFrom: 45
     PageNumberTo: null
   EntryType: 3
+  Fux:
+    RelationType: 1 # or just 2??
+    LociType: 0
   Guid: 121acbe9-c93e-4f6b-8e5f-b39a4c780f42
 # TODO: Rule about 3:1 ratio in second species

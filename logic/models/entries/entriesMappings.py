@@ -55,7 +55,7 @@ class EntryRawToDataclass:
                         PageNumberFrom=raw_entry["PageNumberFrom"],
                         PageNumberTo=raw_entry["PageNumberFrom"],
                     ),
-                    LociType=LociType(raw_entry["LociType"]),
+                    # LociType=LociType(raw_entry["LociType"]),
                     RelationType=RelationType(raw_entry["RelationType"]),
                 )
             case EntryType.RULE:
