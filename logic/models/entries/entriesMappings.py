@@ -31,7 +31,7 @@ class EntryRawToDataclass:
         #     AbstractedGuids=list(map(lambda g: UUID(g), raw_entry["AbstractedGuids"])),
         # )
         return CompositeRule(
-            CompositeText(Logic=raw_entry["Logic"], Note=raw_entry["Note"]),
+            Text=CompositeText(Logic=raw_entry["Logic"], Note=raw_entry["Note"]),
             Guid=UUID(raw_entry["Guid"]),
             AbstractedGuids=list(map(lambda g: UUID(g), raw_entry["AbstractedGuids"])),
         )
@@ -76,6 +76,7 @@ class EntryRawToDataclass:
                     ),
                     LociType=LociType(raw_entry["LociType"]),
                     RelationType=RelationType(raw_entry["RelationType"]),
+                    Logic=raw_entry["Logic"],
                 )
             case EntryType.HEURISTIC:
                 return Heuristic(
@@ -133,4 +134,5 @@ class EntryRawToDataclass:
                     ),
                     LociType=LociType(raw_entry["LociType"]),
                     RelationType=RelationType(raw_entry["RelationType"]),
+                    Logic=raw_entry["Logic"],
                 )

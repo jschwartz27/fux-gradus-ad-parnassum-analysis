@@ -47,6 +47,7 @@ class Fact(Entry):
 class Rule(Entry):
     RelationType: RelationType
     LociType: LociType
+    Logic: Optional[str]
 
 
 @dataclass(frozen=True)
@@ -65,3 +66,4 @@ class Suggestion(Entry):
 class AuthorsRule(Entry):
     RelationType: RelationType
     LociType: LociType
+    Logic: Optional[str]

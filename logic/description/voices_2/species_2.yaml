@@ -1,7 +1,7 @@
 - Text:
     Text: The measure consists of two equal parts, the first of which is shown by the downbeat of the hand, the second, by the upbeat... The second species results when two half notes are set against a while note.
+    AuthorsNote: null
     Note: null
-    MyNote: null
   Pages:
     PageNumberFrom: 41
     PageNumberTo: null
@@ -13,8 +13,8 @@
 
 - Text:
     Text: The first of them comes on the downbeat and must always be consonant...
+    AuthorsNote: null
     Note: null
-    MyNote: null
   Pages:
     PageNumberFrom: 41
     PageNumberTo: null
@@ -26,8 +26,8 @@
 
 - Text:
     Text: ...the second comes on the upbeat, and may be dissonant if it moves from the preceding note and to the following note stepwise. However, if it moves by a skip, it must be consonant. In this species a dissonance may not occur, except by diminution, i.e., by filling out the space between two notes that are a third distance from each other... it makes no difference whether the note which results from the diminution is consonant or dissonant; it is satisfactory if the space between the two notes, a third distance from each other, is filled out.
-    Note: null
-    MyNote: "In theory is actually RelationType: 1, but programmatically is 2."
+    AuthorsNote: null
+    Note: "In theory is actually RelationType: 1, but programmatically is 2."
   Pages:
     PageNumberFrom: 41
     PageNumberTo: null
@@ -40,8 +40,8 @@
 - Text:
     Text: ...except that in this species the next to the last measure should have a fifth, followed by a major sixth, if the cantus firmus--or chorale medlody--is in the lower voice. If the cantus firmus is in the upper voice, there should be a fifth followed by a minor third.
     Logic: "For penultimate to final: fifth to major sixth if cf is in the lower voice else fifth to minor third."
+    AuthorsNote: null
     Note: null
-    MyNote: null
   Pages:
     PageNumberFrom: 42
     PageNumberTo: null
@@ -54,9 +54,8 @@
 - Text:
     Text: It should be said that the skip of a third cannot prevent a succession of either two fifths or two octaves. The intervening note on the upbeat is regarded as hardly existing, since owing to its short duration and the small distance between the tones it cannot compensate to such an extent that the ear will not notice the two succeeding fifths or octaves.
     # TODO continue text on 44
-    Logic: For succeeding downbeats of direct perfect consonances, there must be a skip greater than a third.
+    AuthorsNote: null
     Note: null
-    MyNote: null
   Pages:
     PageNumberFrom: 43
     PageNumberTo: 44
@@ -64,13 +63,14 @@
   Fux:
     RelationType: 1
     LociType: 0
+  Logic: For succeeding downbeats of direct perfect consonances, there must be a skip greater than a third.
   Guid: 9a5ae424-6bc6-424e-9aef-4bfd76a7ead3
 
 - Text:
     Text: First, one may use a half rest in place of the first note.
     Logic: null
+    AuthorsNote: null
     Note: null
-    MyNote: null
   Pages:
     PageNumberFrom: 45
     PageNumberTo: null
@@ -83,8 +83,8 @@
 - Text:
     Text: Second, if the two parts have been led so close together that one does not know where to take them; and if there is no possibility of using contrary motion, this motion can be brought about by using the skip of a minor sixth (which is permissible) or an octave...
     Logic: null
+    AuthorsNote: null
     Note: null
-    MyNote: null
   Pages:
     PageNumberFrom: 45
     PageNumberTo: null

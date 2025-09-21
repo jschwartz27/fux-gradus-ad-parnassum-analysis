@@ -2,8 +2,6 @@ from dataclasses import dataclass
 from typing import Optional
 from uuid import UUID
 
-# from logic.models.entries.entries import LociType, RelationType
-
 
 @dataclass(frozen=True)
 class CompositeText:
