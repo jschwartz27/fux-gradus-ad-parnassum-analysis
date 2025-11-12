@@ -1,6 +1,11 @@
 fux:
-  fact: "purple"
-  rule: "green"
-  heuristic: "yellow"
-  irrelevant: "blue outline"
-  author rule: "red"
+  highlight:
+    fact: purple
+    rule: green
+    heuristic: yellow
+    author rule: red
+  outline:
+    irrelevant: blue
+    theoryQA:
+      question: yellow
+      answer: green
