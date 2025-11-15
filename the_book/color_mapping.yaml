@@ -1,11 +1,14 @@
 fux:
   highlight:
     fact: purple
-    rule: green
+    rule: light green
+    suggestion: orange
+    implied suggestion: light orange
     heuristic: yellow
     author rule: red
   outline:
     irrelevant: blue
+    irrelevant for alucinor: light orange
     theoryQA:
       question: yellow
       answer: green
