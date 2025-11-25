@@ -7,6 +7,7 @@ fux:
     heuristic: yellow
     author rule: red
   outline:
+    exception: red
     irrelevant: blue
     irrelevant for alucinor: light orange
     theoryQA:
