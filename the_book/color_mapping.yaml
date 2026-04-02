@@ -7,6 +7,7 @@ fux:
     heuristic: yellow
     author rule: red
     philiosophical: blue
+    elaborations: grey # typically post-processing
     # Should there be an implied rule from music examples? Like penultimate additions not explicitly states, v2s3
   outline:
     exception: red
