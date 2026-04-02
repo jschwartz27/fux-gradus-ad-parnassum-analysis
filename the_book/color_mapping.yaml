@@ -6,6 +6,8 @@ fux:
     implied suggestion: light orange
     heuristic: yellow
     author rule: red
+    philiosophical: blue
+    # Should there be an implied rule from music examples? Like penultimate additions not explicitly states, v2s3
   outline:
     exception: red
     irrelevant: blue
